@@ -52,3 +52,9 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
    - Une fois le build terminé, l'application devrait se lancer automatiquement sur votre Meta Quest 3.
    - Si ce n'est pas le cas, allez dans **Library > Unknown Sources** sur votre Meta Quest 3 et lancez l'application manuellement.
 ---
+
+### 🖇️ Liens vers les ressources Unity utilisées : 
+- https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257
+- https://assetstore.unity.com/packages/2d/textures-materials/pack-free-textures-2-266006
+- https://assetstore.unity.com/packages/3d/environments/school-assets-146253
+- https://assetstore.unity.com/packages/tools/integration/meta-xr-all-in-one-sdk-269657
