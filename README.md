@@ -1,28 +1,33 @@
 # 🎮 Projet VR : Multimodal groupe PolyVision
-Ce projet est conçue pour fonctionner sur le Meta Quest 3 🥽. Le projet utilise le package **Meta XR All-in-One** pour la gestion des fonctionnalités VR.
+Ce projet est conçu pour fonctionner sur le Meta Quest 3 🥽. Le projet utilise le package **Meta XR All-in-One** pour la gestion des fonctionnalités VR.
 
 ### 👨‍💻 Partie de Karim CHARLEUX comprenant :
 - (**) Use other non screen based interaction methods (e.g. voice, gesture , motion, etc.) to allow the user to change the atmosphere of the environment, such as the tint and brightness of the lighting
 - (**) Implement and demo your application on a VR headset
+
+---
 
 ## ✅ Prérequis
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
 - 🎯 **Unity Hub** avec une version d'Unity supportant le développement VR (2020.3 LTS ou plus récent).
 - 📱 **Android Build Support** installé via Unity Hub.
 - 🥽 **Meta Quest 3** connecté à votre ordinateur via un câble USB-C ou en mode développeur via Wi-Fi.
-- 📦 **Meta XR All-in-One SDK** (il sera inclus dans le package Unity, mais assurez-vous qu'il est bien installé).
+- 📦 **Meta XR All-in-One SDK** (il sera inclus dans le projet, mais assurez-vous qu'il est bien installé).
+
 ---
 
-## 💾 Installation du projet via le Unity Package
-1. **Importer le package Unity** 📥 :
-   - Ouvrez Unity Hub et créez un nouveau projet Unity (version 2020.3 LTS ou plus récent) ou ouvrez un projet existant.
-   - Allez dans **Assets > Import Package > Custom Package**.
-   - Sélectionnez le fichier `.unitypackage` 
-   - Cliquez sur **Import** pour importer tous les assets, scènes et scripts dans votre projet.
+## 💾 Téléchargement et importation du projet
+1. **Télécharger le projet** 📥 :
+   - Clonez ou téléchargez le dépôt GitHub à l'adresse suivante : [https://github.com/KarimCharleux/multimodal-vr-metaquest](https://github.com/KarimCharleux/multimodal-vr-metaquest).
 
-2. **Vérifier les dépendances** 🔍 :
+2. **Ouvrir le projet dans Unity** 🎮 :
+   - Ouvrez Unity Hub, cliquez sur **Open** et sélectionnez le dossier du projet cloné/téléchargé.
+   - Unity devrait importer automatiquement tous les assets, scènes et scripts.
+
+3. **Vérifier les dépendances** 🔍 :
    - Unity devrait importer automatiquement tous les assets et plugins nécessaires, y compris le **Meta XR All-in-One SDK**.
    - Si des erreurs surviennent, assurez-vous que le package **Meta XR All-in-One** est bien installé via le **Package Manager** dans Unity.
+
 ---
 
 ## ⚙️ Configuration du projet
@@ -38,22 +43,22 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 3. **Configurer le Meta Quest 3** 🔧 :
    - Assurez-vous que votre Meta Quest 3 est en mode développeur. Pour cela, activez le mode développeur dans l'application Oculus sur votre téléphone.
    - Connectez votre Meta Quest 3 à votre ordinateur via un câble USB-C ou en mode Wi-Fi.
+
 ---
 
 ## 🚀 Exécution du projet
-1. **Ouvrir la scène principale** 🎬 :
-   - Dans le dossier **Assets/Scenes**, ouvrez la scène **SchoolVR**.
-
-2. **Build et déploiement** 🏗️ :
+1. **Build et déploiement** 🏗️ :
    - Dans **File > Build Settings**, assurez-vous que la scène **SchoolVR** est ajoutée à la liste des scènes à build.
    - Cliquez sur **Build And Run**. Unity va compiler le projet et le déployer sur votre Meta Quest 3.
 
-3. **Lancer l'application** ▶️ :
+2. **Lancer l'application** ▶️ :
    - Une fois le build terminé, l'application devrait se lancer automatiquement sur votre Meta Quest 3.
    - Si ce n'est pas le cas, allez dans **Library > Unknown Sources** sur votre Meta Quest 3 et lancez l'application manuellement.
+
 ---
 
-### 🖇️ Liens vers les ressources Unity utilisées : 
+
+### 🖇️ Liens vers les ressources Unity utilisées :
 - https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257
 - https://assetstore.unity.com/packages/2d/textures-materials/pack-free-textures-2-266006
 - https://assetstore.unity.com/packages/3d/environments/school-assets-146253
