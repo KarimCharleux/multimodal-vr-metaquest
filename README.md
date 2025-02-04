@@ -9,10 +9,9 @@ Ce projet est conçu pour fonctionner sur le Meta Quest 3 🥽. Le projet utilis
 
 ## ✅ Prérequis
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
-- 🎯 **Unity Hub** avec une version d'Unity supportant le développement VR (2020.3 LTS ou plus récent).
+- 🎯 **Unity Hub** avec une version d'Unity supportant le développement VR (2022.3 LTS ou plus récent).
 - 📱 **Android Build Support** installé via Unity Hub.
-- 🥽 **Meta Quest 3** connecté à votre ordinateur via un câble USB-C ou en mode développeur via Wi-Fi.
-- 📦 **Meta XR All-in-One SDK** (il sera inclus dans le projet, mais assurez-vous qu'il est bien installé).
+- 🥽 **Meta Quest** connecté à votre ordinateur via un câble USB-C ou en mode développeur via Wi-Fi.
 
 ---
 
@@ -21,8 +20,9 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
    - Clonez ou téléchargez le dépôt GitHub à l'adresse suivante : [https://github.com/KarimCharleux/multimodal-vr-metaquest](https://github.com/KarimCharleux/multimodal-vr-metaquest).
 
 2. **Ouvrir le projet dans Unity** 🎮 :
-   - Ouvrez Unity Hub, cliquez sur **Open** et sélectionnez le dossier du projet cloné/téléchargé.
-   - Unity devrait importer automatiquement tous les assets, scènes et scripts.
+   - Ouvrez Unity Hub, cliquez sur **Add**, puis **Add project from disk** et sélectionnez le dossier du projet cloné/téléchargé.
+   - Lancer le projet importé
+   - Unity importe automatiquement tous les assets, dépendances, scènes et scripts.
 
 3. **Vérifier les dépendances** 🔍 :
    - Unity devrait importer automatiquement tous les assets et plugins nécessaires, y compris le **Meta XR All-in-One SDK**.
@@ -36,27 +36,40 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
    - Sélectionnez **Android** comme plateforme.
    - Cliquez sur **Switch Platform** pour appliquer les changements.
 
-2. **Configurer les paramètres VR** 🎮 :
-   - Allez dans **Edit > Project Settings > XR Plug-in Management**.
-   - Cochez **Oculus** sous **Plug-in Providers**.
-
-3. **Configurer le Meta Quest 3** 🔧 :
-   - Assurez-vous que votre Meta Quest 3 est en mode développeur. Pour cela, activez le mode développeur dans l'application Oculus sur votre téléphone.
-   - Connectez votre Meta Quest 3 à votre ordinateur via un câble USB-C ou en mode Wi-Fi.
+2. **Configurer le Meta Quest 3** 🔧 :
+   - Assurez-vous que votre Meta Quest est en mode développeur. Pour cela, activez le mode développeur dans l'application Oculus sur votre téléphone.
+   - Connectez votre Meta Quest à votre ordinateur via un câble USB-C ou en mode Wi-Fi.
 
 ---
 
-## 🚀 Exécution du projet
+## 🚀 Exécution du jeu
 1. **Build et déploiement** 🏗️ :
-   - Dans **File > Build Settings**, assurez-vous que la scène **SchoolVR** est ajoutée à la liste des scènes à build.
-   - Cliquez sur **Build And Run**. Unity va compiler le projet et le déployer sur votre Meta Quest 3.
+   - Dans **File > Build Settings** cliquez sur la liste des **Run device** et selectionnez **Oculus Quest X**.
+   - Assurez-vous que la scène **SchoolVR** est ajoutée et cochée dans la liste des scènes à build.
+   - Cliquez sur **Build And Run**. Unity va compiler le projet et le déployer sur votre Meta Quest.
 
-2. **Lancer l'application** ▶️ :
-   - Une fois le build terminé, l'application devrait se lancer automatiquement sur votre Meta Quest 3.
-   - Si ce n'est pas le cas, allez dans **Library > Unknown Sources** sur votre Meta Quest 3 et lancez l'application manuellement.
+3. **Lancer l'application** ▶️ :
+   - Une fois le build terminé, l'application devrait se lancer automatiquement sur votre Meta Quest.
+   - Si ce n'est pas le cas, allez dans le menu **Library > Unknown Sources** sur votre Meta Quest 3 et lancez l'application manuellement.
+   - Une fois l'application lancée, autoriser l'accès au micro via la fenètre qui s'ouvrira.
+   - Dans le cas où vous avez la musique mais pas l'image, fermez le jeu et le lancez le manuellement dans le menu **Library > Unknown Sources** sur votre Meta Quest.
+
+
+4. **Guide de jeu** 🎮 :
+   - **Déplacement** 🕹️ :
+      - Utilisez les joysticks des manettes pour vous déplacer.
+      - Vous pouvez également vous déplacer en utilisant vos mains.
+   - **Interaction avec les objets** 🖐️ :
+      - Prenez les tables présentes dans les classes en utilisant les boutons des manettes (appuyez avec le majeur de votre main).
+      - Vous pouvez également attraper les objets en pinçant votre pouce et votre index pour les manipuler.
+   - **Changer la météo et l'horaire** 🌦️ :
+      - Cliquez sur un des boutons pour activer la commande vocale. Un texte "Listening..." apparaît à l'écran.
+      - Prononcez une phrase pour changer la météo ou l'horaire. Quatre modes sont disponibles :
+         - **Météo** : "pluie", "soleil".
+         - **Horaire** : "nuit", "jour".
+      - Si le système comprend votre commande, l'environnement se met à jour automatiquement.
 
 ---
-
 
 ### 🖇️ Liens vers les ressources Unity utilisées :
 - https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257

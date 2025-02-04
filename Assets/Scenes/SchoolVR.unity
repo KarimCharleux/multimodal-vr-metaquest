@@ -7315,12 +7315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53b4648efd46468dbe9decdf8a95ca29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  details:
-    objectName: Chair
-    description: CHAIR CHAIR CHAIRCHAIR CHAIR CHAIRCHAIR CHAIR CHAIRCHAIR CHAIR CHAIRCHAIR
-      CHAIR CHAIRCHAIR CHAIR CHAIR
-    category: Chair
-    creationDate: 22/01/2025
 --- !u!1001 &143294402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64068,7 +64062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -594, y: 28.9}
+  m_AnchoredPosition: {x: -594, y: 28.900024}
   m_SizeDelta: {x: 160, y: 60}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1271945342
@@ -64856,7 +64850,7 @@ GameObject:
   - component: {fileID: 1290547546}
   - component: {fileID: 1290547545}
   m_Layer: 0
-  m_Name: Shapes
+  m_Name: LiveWeather
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64871,10 +64865,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1290547544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 225433a0c6686a24e85a3ab0e1d0630e, type: 3}
+  m_Script: {fileID: 11500000, guid: d0299b181ae0429a883a8ff48b45306d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _container: {fileID: 1290547546}
+  _container: {fileID: 1618817462}
   _mainLight: {fileID: 410087040}
   _rainEffect: {fileID: 2108287936}
   _dayAudioSource: {fileID: 1834939183}
